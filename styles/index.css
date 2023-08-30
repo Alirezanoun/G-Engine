@@ -139,7 +139,7 @@ ul li:hover ul.dropdown {
     width: 100%;
     padding: 24px;
     transition: all 150ms ease-in-out;
-    background-color: #eeedeb;
+    background-color: #28232a;
   }
   .navbar__container__active {
     opacity: 1;
