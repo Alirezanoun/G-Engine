@@ -84,6 +84,25 @@ li:hover::after {
   display: none;
 }
 
+ul li ul.dropdown li {
+  display: block;
+  background: #28232a;
+  margin: 2px 0px;
+}
+ul li ul.dropdown {
+  width: auto;
+  background: #28232a;
+  position: absolute;
+  z-index: 999;
+  display: none;
+}
+ul li a:hover {
+  background: #28232a;
+}
+ul li:hover ul.dropdown {
+  display: block;
+}
+
 @media screen and (max-width: 960px) {
   .navbar {
     flex-direction: column;

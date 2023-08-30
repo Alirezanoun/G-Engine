@@ -13,6 +13,11 @@ const Navbar = `
 		<ul class="navigation-items">
 			<li class="navbar__item">
 				<a href="./index.html" class="navbar__links" id="about-page">about</a>
+				<ul class="dropdown">
+        <li><a href="#">WHAT WE DO</a></li>
+        <li><a href="#">LOCATION</a></li>
+        <li><a href="#">CONTACT</a></li>
+       </ul>
 			</li>
 			<li class="navbar__item">
 				<a href="./work.html" class="navbar__links" id="work-page">services</a>

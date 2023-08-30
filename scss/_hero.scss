@@ -40,6 +40,14 @@
   }
 }
 
+.header-4 {
+  text-align: center;
+  color: #fff;
+  font-size: 40px;
+  grid-column-start: 5;
+  font-weight: 300;
+}
+
 .book__btn {
   font-size: 1rem;
   background: -webkit-linear-gradient(to right, $pink, $pink, $pink);
