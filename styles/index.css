@@ -255,6 +255,13 @@ ul li:hover ul.dropdown {
   font-size: 40px;
   grid-column-start: 5;
   font-weight: 300;
+  padding: 230px;
+}
+
+iframe {
+  text-align: center;
+  display: flex;
+  margin: auto;
 }
 
 .book__btn {
@@ -332,16 +339,16 @@ ul li:hover ul.dropdown {
 
 .main {
   padding: 48px;
-  min-height: 700px;
+  min-height: 600px;
   display: flex;
   align-items: center;
 }
 .main .main__container {
-  display: flex;
+  display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
   justify-content: center;
-  margin: auto;
+  margin: 0 auto;
   z-index: 1;
   width: 100%;
   max-width: 1300px;
@@ -362,7 +369,7 @@ ul li:hover ul.dropdown {
 }
 .main__content p,
 .main__content h1 {
-  color: #fff;
+  color: #000;
   font-size: 2rem;
   font-weight: 300;
 }
@@ -377,15 +384,12 @@ ul li:hover ul.dropdown {
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
   text-transform: lowercase;
-  margin: auto;
-  display: flex;
+  margin-bottom: 32px;
 }
 
 .fix2 {
   font-size: 1rem;
   font-family: "Sacramento", cursive;
-  margin: auto;
-  display: flex;
 }
 
 .main__btn {
@@ -433,40 +437,6 @@ ul li:hover ul.dropdown {
   text-align: center;
 }
 
-/* Mobile Responsive */
-@media screen and (max-width: 1100px) {
-  .main {
-    min-height: 85vh;
-  }
-  .main .main__container {
-    display: grid;
-    grid-template-columns: 1fr;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    margin: 0 auto;
-    height: 90%;
-  }
-  .main__img--container {
-    display: flex;
-    justify-content: center;
-  }
-  .main__content {
-    text-align: center;
-    margin-bottom: 4rem;
-  }
-  .main__content h1 {
-    font-size: 2rem;
-    margin-top: 2rem;
-  }
-  .main__content h2 {
-    font-size: 3rem;
-  }
-  .main__content p {
-    margin-top: 1rem;
-    font-size: 1.5rem;
-  }
-}
 @media screen and (max-width: 480px) {
   .main__img--card {
     width: 250px;

@@ -15,8 +15,8 @@ const Navbar = `
 				<a href="./index.html" class="navbar__links" id="about-page">about</a>
 				<ul class="dropdown">
         <li><a href="#">WHAT WE DO</a></li>
-        <li><a href="#">LOCATION</a></li>
-        <li><a href="#">CONTACT</a></li>
+        <li><a href="./location.html">LOCATION</a></li>
+        <li><a href="./contact.html">CONTACT</a></li>
        </ul>
 			</li>
 			<li class="navbar__item">
