@@ -28,7 +28,7 @@ const Navbar = `
 				<a href="https://www.instagram.com/zgraphicals/" target="_blank" class="navbar__links" id="insta">hours</a>
 			</li>
 			<li class="navbar__item">
-				<a href="./contact.html" class="navbar__links" id="work-page">book</a>
+				<a href="./book.html" class="navbar__links" id="work-page">book</a>
 			</li>
 		</ul>
 	</footer>
