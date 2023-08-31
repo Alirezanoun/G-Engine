@@ -1,110 +1,107 @@
-@use "./color" as *;
+@use './color' as *;
 
 section {
-  display: flex;
-  text-align: center;
-  align-items: center;
-  .header-3 {
-    text-align: center;
-    color: #fff;
-    font-size: 40px;
-    font-weight: 300;
-    margin: 0;
-    padding: 0;
-  }
-  .red-highlight {
-    color: #e30016;
-  }
-  br {
-    text-align: center;
-  }
+	display: flex;
+	text-align: center;
+	align-items: center;
+	.header-3 {
+		text-align: center;
+		color: #fff;
+		font-size: 40px;
+		font-weight: 300;
+		margin: 0;
+		padding: 0;
+	}
+	.red-highlight {
+		color: #e30016;
+	}
+	br {
+		text-align: center;
+	}
 }
 
 .header-4 {
-  text-align: center;
-  color: #fff;
-  font-size: 40px;
-  grid-column-start: 5;
-  font-weight: 300;
-  padding: 230px;
+	text-align: center;
+	color: #fff;
+	font-size: 40px;
+	grid-column-start: 5;
+	font-weight: 300;
+	padding: 230px;
 }
 
 iframe {
-  text-align: center;
-  display: flex;
-  margin: auto;
+	text-align: center;
+	display: flex;
+	margin: auto;
 }
 
 .book__btn {
-  font-size: 1rem;
-  background: -webkit-linear-gradient(to right, $pink, $pink, $pink);
-  background: linear-gradient(to right, $pink, $pink, $pink);
-  padding: 11px 31px;
-  text-align: center;
-  border: none;
-  border-radius: 7px;
-  margin-top: 2rem;
-  cursor: pointer;
-  position: relative;
-  transition: all 0.35s;
-  outline: none;
-  margin: auto;
-  bottom: 20%;
-  display: flex;
+	font-size: 1rem;
+	background: -webkit-linear-gradient(to right, $pink, $pink, $pink);
+	background: linear-gradient(to right, $pink, $pink, $pink);
+	padding: 11px 31px;
+	text-align: center;
+	border: none;
+	border-radius: 7px;
+	cursor: pointer;
+	position: relative;
+	transition: all 0.35s;
+	outline: none;
+	display: flex;
 }
 
 .book__btn a {
-  position: relative;
-  z-index: 2;
-  color: #fff;
-  text-decoration: none;
-  text-align: center;
+	position: relative;
+	z-index: 2;
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
 }
 
 .book__btn:after {
-  position: absolute;
-  content: "";
-  top: 0;
-  left: 0;
-  width: 0;
-  height: 100%;
-  background: #000;
-  transition: all 0.35s;
-  border-radius: 4px;
+	position: absolute;
+	content: '';
+	top: 0;
+	left: 0;
+	width: 0;
+	height: 100%;
+	background: #000;
+	transition: all 0.35s;
+	border-radius: 4px;
 }
 
 .book__btn:hover {
-  color: rgb(0, 0, 0);
+	color: rgb(0, 0, 0);
 }
 
 .book__btn:hover:after {
-  width: 100%;
+	width: 100%;
 }
 
 @media screen and (max-width: 960px) {
-  #wave {
-    padding-top: 110px;
-    transform: scale(1.5);
-    margin-bottom: 20rem;
-  }
+	#wave {
+		padding-top: 110px;
+		transform: scale(1.5);
+		margin-bottom: 20rem;
+	}
 
-  .image-gap {
-    section {
-      grid-template-columns: 1fr;
-      h1 {
-        font-size: 26px;
-      }
-      .header-2 {
-        font-size: 2.5rem;
-      }
-    }
-  }
+	.image-gap {
+		section {
+			grid-template-columns: 1fr;
+			h1 {
+				font-size: 26px;
+			}
+			.header-2 {
+				font-size: 2.5rem;
+			}
+		}
+	}
 }
 
 @media screen and (max-width: 480px) {
-  #wave {
-    padding-top: 186px;
-    transform: scale(2.5);
-    padding-bottom: 183px;
-  }
+	#wave {
+		padding-top: 186px;
+		transform: scale(2.5);
+		padding-bottom: 183px;
+	}
 }

@@ -251,13 +251,10 @@ iframe {
   text-align: center;
   border: none;
   border-radius: 7px;
-  margin-top: 2rem;
   cursor: pointer;
   position: relative;
   transition: all 0.35s;
   outline: none;
-  margin: auto;
-  bottom: 20%;
   display: flex;
 }
 
@@ -313,10 +310,15 @@ iframe {
   }
 }
 #about {
-  margin: auto;
+  padding-top: 5rem;
+}
+#about > section {
   display: flex;
   text-align: center;
-  padding-top: 5rem;
+  justify-content: center;
+  flex-direction: column;
+  gap: 24px;
+  min-height: 100vh;
 }
 
 .main {
