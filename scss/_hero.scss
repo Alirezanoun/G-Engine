@@ -1,42 +1,26 @@
 @use "./color" as *;
 
-#wave {
-  margin-bottom: 60rem;
-}
-
-.fill-image {
-  width: 100%;
-  height: auto;
-}
-
-.image-gap {
-  width: 100%;
-  padding-top: 16px;
-  padding-right: 16px;
-  padding-left: 16px;
-  padding-bottom: 48px;
-  section {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    h1 {
-      font-size: 40px;
-      text-align: center;
-      grid-column-start: 5;
-      font-weight: 300;
-    }
-    .header-2 {
-      font-size: 5.5rem;
-      text-align: center;
-      color: $pink;
-      font-family: "Sacramento", cursive;
-    }
-    .header-3 {
-      text-align: center;
-      color: #fff;
-    }
-    .red-highlight {
-      color: #e30016;
-    }
+section {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  .header-3 {
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+  }
+  .red-highlight {
+    color: #e30016;
+  }
+  br {
+    text-align: center;
   }
 }
 

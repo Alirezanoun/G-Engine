@@ -209,44 +209,28 @@ ul li:hover ul.dropdown {
     transform: translateY(-8px) rotate(-45deg);
   }
 }
-#wave {
-  margin-bottom: 60rem;
-}
-
-.fill-image {
-  width: 100%;
-  height: auto;
-}
-
-.image-gap {
-  width: 100%;
-  padding-top: 16px;
-  padding-right: 16px;
-  padding-left: 16px;
-  padding-bottom: 48px;
-}
-.image-gap section {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-}
-.image-gap section h1 {
-  font-size: 40px;
+section {
+  display: flex;
   text-align: center;
-  grid-column-start: 5;
-  font-weight: 300;
+  align-items: center;
 }
-.image-gap section .header-2 {
-  font-size: 5.5rem;
-  text-align: center;
-  color: #e30016;
-  font-family: "Sacramento", cursive;
-}
-.image-gap section .header-3 {
+section .header-3 {
   text-align: center;
   color: #fff;
+  font-size: 40px;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
 }
-.image-gap section .red-highlight {
+section .red-highlight {
   color: #e30016;
+}
+section br {
+  text-align: center;
 }
 
 .header-4 {
@@ -333,8 +317,10 @@ iframe {
   }
 }
 #about {
-  padding: 250px;
-  padding-bottom: 50px;
+  margin: auto;
+  display: flex;
+  text-align: center;
+  padding-top: 5rem;
 }
 
 .main {

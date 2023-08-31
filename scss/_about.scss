@@ -1,8 +1,10 @@
 @use "./color" as *;
 
 #about {
-  padding: 250px;
-  padding-bottom: 50px;
+  margin: auto;
+  display: flex;
+  text-align: center;
+  padding-top: 5rem;
 }
 
 .main {
