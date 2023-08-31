@@ -221,7 +221,6 @@ section .header-3 {
   font-weight: 300;
   margin: 0;
   padding: 0;
-  position: absolute;
 }
 section .red-highlight {
   color: #e30016;
