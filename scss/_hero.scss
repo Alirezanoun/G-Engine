@@ -43,6 +43,17 @@ section {
   display: block;
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  min-height: 170vh;
+}
+
 .book__btn {
   font-size: 1rem;
   background: -webkit-linear-gradient(to right, $pink, $pink, $pink);
@@ -91,6 +102,10 @@ section {
     padding-top: 110px;
     transform: scale(1.5);
     margin-bottom: 20rem;
+  }
+
+  .center {
+    transform: scale(1.5);
   }
 
   .image-gap {

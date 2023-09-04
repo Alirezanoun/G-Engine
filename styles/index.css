@@ -253,6 +253,17 @@ section br {
   display: block;
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  min-height: 170vh;
+}
+
 .book__btn {
   font-size: 1rem;
   background: linear-gradient(to right, #e30016, #e30016, #e30016);
@@ -300,6 +311,9 @@ section br {
     padding-top: 110px;
     transform: scale(1.5);
     margin-bottom: 20rem;
+  }
+  .center {
+    transform: scale(1.5);
   }
   .image-gap section {
     grid-template-columns: 1fr;

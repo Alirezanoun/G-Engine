@@ -30,7 +30,7 @@ const Navbar = `
 
 		<ul class="navigation-items">
 			<li class="navbar__item">
-				<a href="https://www.instagram.com/zgraphicals/" target="_blank" class="navbar__links" id="insta">hours</a>
+				<a href="./hours.html" class="navbar__links" id="insta">hours</a>
 			</li>
 			<li class="navbar__item">
 				<a href="./book.html" class="navbar__links" id="work-page">book</a>
