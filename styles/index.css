@@ -822,7 +822,10 @@ section .cards .text-card h3 {
   width: 100%;
   color: #fff;
   text-align: left;
-  padding: 190px;
+  padding: 20px;
+  padding-top: 200px;
+  min-height: 100vh;
+  display: block;
 }
 
 .login-form h1 {
@@ -834,7 +837,7 @@ section .cards .text-card h3 {
 .login-form p {
   font-family: "Inter";
   font-style: normal;
-  font-weight: 400;
+  font-weight: bold;
   font-size: 16px;
   margin: 15px;
   text-align: left;
@@ -864,7 +867,7 @@ section .cards .text-card h3 {
   font-size: 14px;
   font-weight: thin;
   margin: 20px 0;
-  padding: 20px 15px;
+  padding: 20px 10px;
   width: 200px;
   border: 0;
   border-radius: 15px;
