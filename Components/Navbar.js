@@ -20,7 +20,7 @@ const Navbar = `
        </ul>
 			</li>
 			<li class="navbar__item">
-				<a href="./work.html" class="navbar__links" id="work-page">services</a>
+				<a href="./services.html" class="navbar__links" id="work-page">services</a>
 			</li>
 		</ul>
 
