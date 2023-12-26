@@ -645,12 +645,10 @@ ul li:hover ul.dropdown {
 }
 .services__card button {
   color: #fff;
-  border: 1px solid #ffffff;
+  border: none;
   outline: none;
   border-radius: 10px;
-  background-color: rgba(255, 255, 255, 0.3);
-  -webkit-backdrop-filter: blur(20px);
-          backdrop-filter: blur(20px);
+  background-color: #e30016;
   font-size: 1rem;
   box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
 }

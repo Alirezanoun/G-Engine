@@ -49,11 +49,10 @@
 
 	button {
 		color: #fff;
-		border: 1px solid #ffffff;
+		border: none;
 		outline: none;
 		border-radius: 10px;
-		background-color: rgba(255, 255, 255, 0.3);
-		backdrop-filter: blur(20px);
+		background-color: $pink;
 		font-size: 1rem;
 		box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
 		a {
