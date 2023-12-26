@@ -342,14 +342,6 @@ section br {
 #about {
   padding-top: 5rem;
 }
-#about > section {
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  flex-direction: column;
-  gap: 24px;
-  min-height: 100vh;
-}
 
 .main {
   padding: 48px;
@@ -623,15 +615,6 @@ section br {
     margin: 2.5rem 0;
   }
 }
-.services {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding-bottom: 120px;
-  padding-top: 220px;
-}
-
 .font2 {
   font-family: "Lora", serif;
 }
@@ -642,7 +625,7 @@ section br {
   font-size: 12px;
 }
 
-.services h1 {
+#services h1 {
   background-color: #000000;
   background-image: linear-gradient(to right, #e30016 0%, #e30016 100%);
   background-size: 100%;
@@ -650,14 +633,13 @@ section br {
           background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
-  margin-bottom: 5rem;
+  margin-top: 5rem;
   font-size: 4rem;
 }
 
 .services__wrapper {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr;
+  display: flex;
+  justify-content: center;
 }
 
 .services__card {
@@ -775,11 +757,7 @@ section .cards .text-card h3 {
 .website__rights {
   font-family: "Source Sans Pro", sans-serif;
   color: #fff;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
   width: 100%;
-  padding-top: 400px;
   text-align: center;
 }
 
@@ -944,4 +922,13 @@ input:valid + span:after {
 
 #phone:focus:invalid {
   border-color: rgba(217, 83, 79, 0.6);
+}
+
+.container {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 24px;
+  min-height: 90vh;
 }/*# sourceMappingURL=index.css.map */
