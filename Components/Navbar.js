@@ -33,7 +33,7 @@ const Navbar = `
 				<a href="./hours.html" class="navbar__links" id="insta">hours</a>
 			</li>
 			<li class="navbar__item">
-				<a href="./book.html" class="navbar__links" id="work-page">book</a>
+				<a href="./book.html" class="navbar__links" id="work-page">contact</a>
 			</li>
 		</ul>
 	</footer>
@@ -41,6 +41,6 @@ const Navbar = `
 
 
 
-`;
+`
 
-export default Navbar;
+export default Navbar
