@@ -12,12 +12,7 @@ const Navbar = `
 	<footer class="navbar__container">
 		<ul class="navigation-items">
 			<li class="navbar__item">
-				<a href="./index.html" class="navbar__links" id="about-page">about</a>
-				<ul class="dropdown">
-        <li><a href="./whatwedo.html">WHAT WE DO</a></li>
-        <li><a href="./location.html">LOCATION</a></li>
-        <li><a href="./contact.html">CONTACT</a></li>
-       </ul>
+				<a href="./index.html" class="navbar__links" id="about-page">home</a>
 			</li>
 			<li class="navbar__item">
 				<a href="./services.html" class="navbar__links" id="work-page">services</a>

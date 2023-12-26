@@ -203,12 +203,12 @@ ul li:hover ul.dropdown {
     transform: translateY(-8px) rotate(-45deg);
   }
 }
-section {
+.section-hero {
   display: flex;
   text-align: center;
   align-items: center;
 }
-section .header-3 {
+.section-hero .header-3 {
   text-align: center;
   color: #fff;
   font-size: 40px;
@@ -216,10 +216,10 @@ section .header-3 {
   margin: 0;
   padding: 0;
 }
-section .red-highlight {
+.section-hero .red-highlight {
   color: #e30016;
 }
-section br {
+.section-hero br {
   text-align: center;
 }
 
@@ -255,7 +255,7 @@ section br {
   display: flex;
   text-align: center;
   justify-content: center;
-  min-height: 170vh;
+  padding-top: 200px;
 }
 
 .book__btn {
@@ -307,7 +307,7 @@ section br {
     margin-bottom: 20rem;
   }
   .center {
-    transform: scale(1.5);
+    width: 80%;
   }
   .image-gap section {
     grid-template-columns: 1fr;
@@ -781,6 +781,9 @@ section .cards .text-card h3 {
   padding: 200px 20px 20px 20px;
   min-height: 100vh;
   margin: 0 auto;
+}
+.login-form form {
+  margin-bottom: 24px;
 }
 .login-form h1 {
   font-size: 30px;

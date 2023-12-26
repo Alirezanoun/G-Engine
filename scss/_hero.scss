@@ -1,6 +1,6 @@
 @use './color' as *;
 
-section {
+.section-hero {
 	display: flex;
 	text-align: center;
 	align-items: center;
@@ -51,7 +51,7 @@ section {
 	display: flex;
 	text-align: center;
 	justify-content: center;
-	min-height: 170vh;
+	padding-top: 200px;
 }
 
 .book__btn {
@@ -105,7 +105,7 @@ section {
 	}
 
 	.center {
-		transform: scale(1.5);
+		width: 80%;
 	}
 
 	.image-gap {
