@@ -812,22 +812,16 @@ section .cards .text-card h3 {
   width: 100%;
   color: #fff;
   text-align: left;
-  padding: 20px;
-  padding-top: 200px;
+  padding: 200px 20px 20px 20px;
   min-height: 100vh;
   display: block;
   font-family: "Lora", serif;
 }
-
 .login-form h1 {
   font-size: 30px;
   text-align: center;
-  font-family: "Lora", serif;
 }
-
 .login-form p {
-  font-family: "Lora", serif;
-  font-style: normal;
   font-weight: bold;
   font-size: 16px;
   margin: 15px;
