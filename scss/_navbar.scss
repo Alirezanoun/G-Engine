@@ -42,7 +42,7 @@
 	}
 }
 
-li::after {
+.navbar__item::after {
 	content: '';
 	width: 0;
 	height: 3px;
@@ -52,7 +52,7 @@ li::after {
 	transition: 0.4s;
 }
 
-li:hover::after {
+.navbar__item:hover::after {
 	width: 100%;
 	transition: width 0.4s linear;
 }
@@ -79,22 +79,22 @@ li:hover::after {
 	display: none;
 }
 
-ul li ul.dropdown li {
+.navigation-items li ul.dropdown li {
 	display: block;
 	background: #28232a;
 	margin: 2px 0px;
 }
-ul li ul.dropdown {
+.navigation-items li ul.dropdown {
 	width: auto;
 	background: #28232a;
 	position: absolute;
 	z-index: 999;
 	display: none;
 }
-ul li a:hover {
+.navigation-items li a:hover {
 	background: #28232a;
 }
-ul li:hover ul.dropdown {
+.navigation-items li:hover ul.dropdown {
 	display: block;
 }
 
