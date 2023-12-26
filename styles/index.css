@@ -696,6 +696,11 @@ section br {
     height: auto;
   }
 }
+@media screen and (max-width: 942px) {
+  #services h1 {
+    margin-top: 12rem;
+  }
+}
 .services__btn {
   position: absolute;
   transform: translate(-50%, -50%);
