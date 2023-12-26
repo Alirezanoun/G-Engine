@@ -3,7 +3,6 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Source Sans Pro", sans-serif;
   scroll-behavior: smooth;
 }
 
@@ -13,6 +12,7 @@ html {
 
 body {
   background-color: #28232a;
+  font-family: "Source Sans 3", sans-serif;
 }
 
 a:link,
@@ -74,15 +74,10 @@ li:hover::after {
   transition: width 0.4s linear;
 }
 
-.font1 {
-  font-family: "Croissant One", cursive;
-}
-
 .navbar__links {
   color: white;
   display: flex;
   align-items: center;
-  font-family: "Brown-Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
   font-size: 1rem;
   justify-content: center;
@@ -221,11 +216,9 @@ section .header-3 {
   font-weight: 300;
   margin: 0;
   padding: 0;
-  font-family: "Lora", serif;
 }
 section .red-highlight {
   color: #e30016;
-  font-family: "Lora", serif;
 }
 section br {
   text-align: center;
@@ -368,19 +361,16 @@ section br {
 .main__content h2 {
   font-size: 4rem;
   color: #e30016;
-  font-family: "Lora", serif;
 }
 .main__content p {
   font-size: 2rem;
   font-weight: 700;
-  font-family: "Lora", serif;
 }
 .main__content p,
 .main__content h1 {
   color: #fff;
   font-size: 2rem;
   font-weight: 300;
-  font-family: "Lora", serif;
 }
 
 .fix1 {
@@ -392,7 +382,6 @@ section br {
 
 .fix2 {
   font-size: 1rem;
-  font-family: "Lora", serif;
 }
 
 .main__btn {
@@ -513,7 +502,6 @@ section br {
 
 .fix2 {
   font-size: 1rem;
-  font-family: "Sacramento", cursive;
 }
 
 .main__btn {
@@ -615,13 +603,8 @@ section br {
     margin: 2.5rem 0;
   }
 }
-.font2 {
-  font-family: "Lora", serif;
-}
-
 .a1 {
   text-decoration: none;
-  font-family: "Quicksand", sans-serif;
   font-size: 12px;
 }
 
@@ -762,7 +745,6 @@ section .cards .text-card h3 {
 }
 
 .website__rights {
-  font-family: "Source Sans Pro", sans-serif;
   color: #fff;
   width: 100%;
   text-align: center;
@@ -793,21 +775,6 @@ section .cards .text-card h3 {
     width: 100%;
   }
 }
-.font3 {
-  font-family: "Sacramento", cursive;
-  text-align: center;
-  font-size: 4rem;
-  color: #e30016;
-}
-
-@media screen and (max-width: 960px) {
-  .font3 {
-    font-family: "Sacramento", cursive;
-    text-align: center;
-    font-size: 2rem;
-    color: #e30016;
-  }
-}
 .login-form {
   width: 100%;
   color: #fff;
@@ -815,7 +782,6 @@ section .cards .text-card h3 {
   padding: 200px 20px 20px 20px;
   min-height: 100vh;
   display: block;
-  font-family: "Lora", serif;
 }
 .login-form h1 {
   font-size: 30px;
@@ -902,7 +868,6 @@ input:valid + span:after {
 #phone {
   width: calc(100% - 2.5rem);
   padding: 1rem;
-  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
