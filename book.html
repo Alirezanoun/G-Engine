@@ -1,96 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>G-Engine | Book Appointment</title>
-		<link rel="shortcut icon" type="image/png" href="./img/Untitled design.svg" />
-		<link rel="preconnect" href="https://fonts.googleapis.com" />
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-		<link
-			href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300;400;700&display=swap"
-			rel="stylesheet" />
-		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-		<link
-			rel="stylesheet"
-			href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
-			integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
-			crossorigin="anonymous" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>G-Engine | Book Appointment</title>
+    <link rel="shortcut icon" type="image/png" href="./img/Untitled design.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
 
-		<link rel="stylesheet" href="./styles/index.min.css" />
-	</head>
+    <link rel="stylesheet" href="./styles/index.min.css" />
+  </head>
 
-	<body>
-		<div id="navigation-bar"></div>
+  <body>
+    <div id="navigation-bar"></div>
 
-		<div class="login-form">
-			<h1 data-aos="zoom-in" data-aos-duration="1000">
-				Please fill out this form to book your appointment
-			</h1>
-			<form
-				name="contact"
-				action="/thankyou/"
-				method="POST"
-				data-netlify="true"
-				onSubmit="submit"
-				netlify
-				data-netlify-honeypot="bot-field">
-				<input type="hidden" name="bot-field" />
+    <div class="login-form">
+      <h1 data-aos="zoom-in" data-aos-duration="1000">
+        Please fill out this form to book your appointment
+      </h1>
+      <form
+        name="contact"
+        action="/thankyou/"
+        method="POST"
+        data-netlify="true"
+        onSubmit="submit"
+        netlify
+        data-netlify-honeypot="bot-field"
+      >
+        <input type="hidden" name="bot-field" />
 
-				<p>Name</p>
-				<input type="text" name="name" placeholder="Your name" required />
+        <p>Name</p>
+        <input type="text" name="name" placeholder="Your name" required />
 
-				<p>Email</p>
-				<input type="email" name="email" placeholder="Your email" required />
+        <p>Email</p>
+        <input type="email" name="email" placeholder="Your email" required />
 
-				<p>Phone number</p>
-				<input
-					type="text"
-					name="telephone"
-					placeholder="xxx-xxx-xxxx"
-					required
-					id="phone" />
-				<span class="validity"></span>
+        <p>Phone number</p>
+        <input
+          type="text"
+          name="telephone"
+          placeholder="xxx-xxx-xxxx"
+          required
+          id="phone"
+        />
+        <span class="validity"></span>
 
-				<p>Brand & Model</p>
-				<input type="text" name="email" placeholder="Brand, Model" required />
+        <p>Brand & Model</p>
+        <input type="text" name="email" placeholder="Brand, Model" required />
 
-				<p>Image of Machine OPTIONAL</p>
-				<input type="file" name="email" placeholder="Image of Machine (optional)" />
+        <p>Image of Machine OPTIONAL</p>
+        <input type="file" name="email" placeholder="Image of Machine (optional)" />
 
-				<p>Choose your service type</p>
+        <p>Choose your service type</p>
 
-				<select name="service" id="#" required>
-					<option value="select" selected disabled>Service type</option>
-					<option value="Service 1">Service 1 for LAWNMOWER $75</option>
-					<option value="Service 2">Service 2 for SNOWBLOWER $100</option>
-					<option value="Service 3">Service 3</option>
-					<option value="Service 4">Service 4</option>
-					<option value="Service 5">Service 5</option>
-				</select>
+        <select name="service" id="#" required>
+          <option value="select" selected disabled>Service type</option>
+          <option value="Service 1">Lawnmower TUNE-UP ($110)</option>
+          <option value="Service 2">Snowblower TUNE-UP ($150)</option>
+          <option value="Service 3">Lawnmower REPAIR (from $40)</option>
+          <option value="Service 4">Snowblower REPAIR (from $40)</option>
+        </select>
 
-				<p>Date and time</p>
-				<input type="datetime-local" name="datetime-local" placeholder="" required />
+        <p>Date and time</p>
+        <input type="datetime-local" name="datetime-local" placeholder="" required />
 
-				<button type="submit">SUBMIT</button>
-			</form>
+        <button type="submit">SUBMIT</button>
+      </form>
 
-			<iframe
-				src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d89882.62322888966!2d-75.81314221382344!3d45.25119037509409!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ccde34b3b731cd5%3A0x1638eb11d8f1f136!2sBarrhaven%2C%20Ottawa%2C%20ON!5e0!3m2!1sen!2sca!4v1703620109838!5m2!1sen!2sca"
-				width="100%"
-				height="450"
-				style="border: 0"
-				allowfullscreen=""
-				loading="lazy"
-				referrerpolicy="no-referrer-when-downgrade"></iframe>
-		</div>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d89882.62322888966!2d-75.81314221382344!3d45.25119037509409!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ccde34b3b731cd5%3A0x1638eb11d8f1f136!2sBarrhaven%2C%20Ottawa%2C%20ON!5e0!3m2!1sen!2sca!4v1703620109838!5m2!1sen!2sca"
+        width="100%"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </div>
 
-		<div id="footer-copyright"></div>
+    <div id="footer-copyright"></div>
 
-		<script src="./index.js" type="module"></script>
-		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-		<script>
-			AOS.init()
-		</script>
-	</body>
+    <script src="./index.js" type="module"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
 </html>
